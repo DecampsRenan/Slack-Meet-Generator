@@ -2,7 +2,7 @@
 
 This project uses your google account to create event in your calendar in order to get a meet link.
 
-It's a bit hacky, it's used in my company for more than 1 year at the time of writing this line !
+It's a bit hacky, but it's used in my company for more than 1 year at the time of writing this line !
 
 Basically, with that app you will be able to do `/meet` in any slack channel, and be able to get an auto generated Google Meet link !
 
