@@ -26,16 +26,24 @@ You can already fill the `CALENDAR_EMAIL` with your google email account.
 9. Now your server should be able to contact your calendar and create event !
 
 ### Configure Slack
-[WIP]
 
 
-```bash
-yarn install
-```
+
+1. Go to https://api.slack.com/apps, and click "Create New App"
+2. Fill the name with what you want, and select the workspace in which you want to add the Meet Generator.
+3. On the new page, in the "Add features and functionality" section, click on the "Slash Command" card
+4. Click on "Create New Command"
+5. Fill the informations with what you want, and make sure that the "Request URL" is the url of the server on which you have this project running, or at least an ngrok if you want to test it locally; append `/api/slack-handler` to this endpoint.
+6. Check "Escape channels, users, etc...", and click "Save"
+7. Go back to "Basic Information", and open the "Install your app" section.
+8. Click on the "Install to Workspace" button to install it
+9. Now you should be able to type `/meet` on every channel of your workspace !
 
 ## Running the app
 
 ```bash
+yarn install # install dependencies
+
 # development
 yarn start:dev
 
