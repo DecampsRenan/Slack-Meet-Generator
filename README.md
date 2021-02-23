@@ -27,8 +27,6 @@ You can already fill the `CALENDAR_EMAIL` with your google email account.
 
 ### Configure Slack
 
-
-
 1. Go to https://api.slack.com/apps, and click "Create New App"
 2. Fill the name with what you want, and select the workspace in which you want to add the Meet Generator.
 3. On the new page, in the "Add features and functionality" section, click on the "Slash Command" card
