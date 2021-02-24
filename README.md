@@ -1,4 +1,9 @@
-# Meet Generator for Slack
+<div style="align: center; margin: auto;">
+  <h1>Google Meet Generator for Slack</h1>
+</div>
+
+
+
 
 This project uses your google account to create event in your calendar in order to get a meet link.
 
@@ -8,7 +13,11 @@ Basically, with that app you will be able to do `/meet` in any slack channel, an
 
 ## Installation
 
-First, duplicate the `.env.example` file and remove the .example suffix.
+```shell
+yarn install            # Install dev dependencies
+cp .env.example .env    # Duplicate the env file and rename it to .env
+```
+
 You can already fill the `CALENDAR_EMAIL` with your google email account.
 
 ### Configure a new Google Cloud Platform project
@@ -20,9 +29,9 @@ You can already fill the `CALENDAR_EMAIL` with your google email account.
 5. You will probably have a screen with a warning about an app not approved; you can continue with that (because it's **your** app, I will not steel any data :p )
 6. Accept all permissions
 7. Once redirected, copy the code in the url and paste it in your terminal
-(Auth Code)[./doc/auth-code.png]
-8. If the cli list some events and you can recognize them, then it's good ! You can copy / paste the jons logged after the CREDENTIALS keyword (be sure to not include trailings `"`)
-(Credentials)[./doc/credentials.png]
+![Auth Code](./doc/auth-code.png)
+8. If the cli lists some events and you can recognize them, then it's good ! You can copy / paste the jons logged after the CREDENTIALS keyword (be sure to not include trailings `"`)
+![Credentials](./doc/credentials.png)
 9. Now your server should be able to contact your calendar and create event !
 
 ### Configure Slack
