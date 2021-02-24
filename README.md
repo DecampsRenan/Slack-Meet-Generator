@@ -1,15 +1,32 @@
-<div style="align: center; margin: auto;">
-  <h1>Google Meet Generator for Slack</h1>
-</div>
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/DecampsRenan/Slack-Meet-Generator">
+    <img src="doc/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
+  <h3 align="center">Google Meet Generator</h3>
 
+  <p align="center">
+    Generate Google Meet links from Slack !
+    <br />
+    <a href="https://github.com/DecampsRenan/Slack-Meet-Generator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/DecampsRenan/Slack-Meet-Generator">View Demo</a>
+    ·
+    <a href="https://github.com/DecampsRenan/Slack-Meet-Generator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DecampsRenan/Slack-Meet-Generator/issues">Request Feature</a>
+  </p>
+</p>
 
 
 This project uses your google account to create event in your calendar in order to get a meet link.
 
-It's a bit hacky, but it's used in my company for more than 1 year at the time of writing this line !
+It's a bit hacky because there isn't Google Meet API, but it's been used in my company for more than 1 year at the time of writing this line !
 
-Basically, with that app you will be able to do `/meet` in any slack channel, and be able to get an auto generated Google Meet link !
+![Demo](./doc/demo.gif)
 
 ## Installation
 
@@ -30,7 +47,7 @@ You can already fill the `CALENDAR_EMAIL` with your google email account.
 6. Accept all permissions
 7. Once redirected, copy the code in the url and paste it in your terminal
 ![Auth Code](./doc/auth-code.png)
-8. If the cli lists some events and you can recognize them, then it's good ! You can copy / paste the jons logged after the CREDENTIALS keyword (be sure to not include trailings `"`)
+8. If the cli lists some events and you can recognize them, then it's good ! You can copy / paste the jons logged after the CREDENTIALS keyword
 ![Credentials](./doc/credentials.png)
 9. Now your server should be able to contact your calendar and create event !
 

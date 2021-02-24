@@ -28,7 +28,7 @@ function getAccessToken(oAuth2Client, callback) {
       }
       oAuth2Client.setCredentials(token);
       // Store the token to disk for later program executions
-      console.log(`CREDENTIALS: "${JSON.stringify(token)}"`);
+      console.log(`CREDENTIALS: ${JSON.stringify(token)}`);
       callback(oAuth2Client);
     });
   });
