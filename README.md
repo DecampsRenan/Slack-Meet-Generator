@@ -60,12 +60,10 @@ You can already fill the `CALENDAR_EMAIL` with your google email account.
 ## Running the app
 
 ```bash
-yarn install # install dependencies
-
 # development
 yarn start:dev
 
 # Prod
 yarn build
-yarn start
+yarn start:prod
 ```
