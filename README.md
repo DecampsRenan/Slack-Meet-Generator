@@ -47,7 +47,7 @@ You can already fill the `CALENDAR_EMAIL` with your google email account.
 6. Accept all permissions
 7. Once redirected, copy the code in the url and paste it in your terminal
 ![Auth Code](./doc/auth-code.png)
-8. If the cli lists some events and you can recognize them, then it's good ! You can copy / paste the jons logged after the CREDENTIALS keyword
+8. If the cli lists some events and you can recognize them, then it's good ! Just paste the credentials on your .env (on the `CREDENTIAL`)
 ![Credentials](./doc/credentials.png)
 9. Now your server should be able to contact your calendar and create event !
 
