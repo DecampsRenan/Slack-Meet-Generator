@@ -13,8 +13,6 @@
     <a href="https://github.com/DecampsRenan/Slack-Meet-Generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/DecampsRenan/Slack-Meet-Generator">View Demo</a>
-    ·
     <a href="https://github.com/DecampsRenan/Slack-Meet-Generator/issues">Report Bug</a>
     ·
     <a href="https://github.com/DecampsRenan/Slack-Meet-Generator/issues">Request Feature</a>
